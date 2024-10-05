@@ -5,7 +5,7 @@ pipeline {
 	}	
 	stages {        
 		stage('Clone'){			
-			steps {git url:'https://github.com/sep-2024-trivandrum/authentication-service.git', branch:'main’}			}		
+			steps {git url:'https://github.com/AlvinHub2002/Authentication-service.git', branch:'main’}			}		
 		stage('Build'){			
 			steps {sh "mvn clean install -DskipTests"}		
 		}		
