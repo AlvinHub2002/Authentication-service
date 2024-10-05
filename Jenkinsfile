@@ -17,4 +17,3 @@ pipeline {
 			            bat "docker run -p 8090:8090 -d --name auth-container auth-image"}		
 		}		
 	}
-}
